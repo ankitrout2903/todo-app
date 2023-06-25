@@ -1,6 +1,6 @@
 # Todo App
 
-This is a Todo application built with a microservice architecture using NestJS as the backend framework and a frontend client.
+This is a Todo application built with a microservice architecture using NestJS as the backend framework and a NEXTjs as frontend client.
 
 ## Architecture Overview
 
