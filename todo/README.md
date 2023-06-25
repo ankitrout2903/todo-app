@@ -27,9 +27,9 @@ To run the Todo app locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ankitrout2903/todo-nest-next.git
 
-   
+    ```
    
    Install dependencies for the backend servers and frontend client:
 
