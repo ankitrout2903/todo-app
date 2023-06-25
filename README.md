@@ -8,7 +8,7 @@ The application consists of the following components:
 
 - Backend Server 1 (NestJS) - Port 3000
 - Backend Server 2 (NestJS) - Port 5000
-- Frontend Client (React) - Port 8000
+- Frontend Client (NextJS) - Port 8000
 
 The microservice architecture enables easy debugging, hosting, and scaling of the application.
 
