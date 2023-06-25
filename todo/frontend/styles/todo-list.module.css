@@ -1,0 +1,51 @@
+.container {
+  width: 300px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainInputContainer {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.mainInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin: auto;
+  display: block;
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.filterBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.filterBtn:hover {
+  text-decoration: underline;
+}
+
+.filterActive {
+  text-decoration: underline;
+  font-weight: bold;
+}
