@@ -6,15 +6,16 @@ This is a Todo application built with a microservice architecture using NestJS a
 
 The application consists of the following components:
 
-- Backend Server 1 (NestJS) - Port 5000
-- Backend Server 2 (NestJS) - Port 8000
-- Frontend Client (React) - Port 3000
+- Backend Server 1 (NestJS) - Port 3000
+- Backend Server 2 (NestJS) - Port 5000
+- Frontend Client (React) - Port 8000
 
 The microservice architecture enables easy debugging, hosting, and scaling of the application.
 
 ## Features
 
-- Create, read, update, and delete todos.
+- User sign-up and sign-in functionality for authentication.
+- Create, read, update, and delete todo tasks.
 - Filter todos based on completion status.
 - Real-time updates when todos are modified.
 - Simple and intuitive user interface.
@@ -27,8 +28,7 @@ To run the Todo app locally, follow these steps:
 
    ```bash
    git clone <repository-url>
-   
-   
+
    
    
    Install dependencies for the backend servers and frontend client:
