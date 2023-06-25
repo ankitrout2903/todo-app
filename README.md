@@ -6,9 +6,9 @@ This is a Todo application built with a microservice architecture using NestJS a
 
 The application consists of the following components:
 
-- Backend Server 1 (NestJS) - Port 3000
-- Backend Server 2 (NestJS) - Port 5000
-- Frontend Client (NextJS) - Port 8000
+- Backend Server 1 (NestJS) - Port 8000 auth server
+- Backend Server 2 (NestJS) - Port 5000 todo server
+- Frontend Client (NextJS) - Port 3000
 
 The microservice architecture enables easy debugging, hosting, and scaling of the application.
 
