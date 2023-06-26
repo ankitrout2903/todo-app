@@ -35,7 +35,29 @@ Backend:
 
 ## Setup
 
-To run the Todo app locally, follow these steps:
+
+### To build and run the Docker image, follow these steps:
+
+Open a terminal or command prompt.
+
+Navigate to the directory containing the Dockerfile.
+
+Run the following command to build the Docker image:
+
+ ```bash
+docker build -t my-app:latest .
+ ```
+
+ ```bash
+docker run -p 8000:8000 my-app:latest          # Auth Backend
+docker run -p 5000:5000 my-app:latest          # Todo Backend
+docker run -p 3000:3000 my-app:latest          # Frontend Client
+
+ ```
+
+
+
+### To run the Todo app locally, follow these steps:
 
 1. Clone the repository:
 
