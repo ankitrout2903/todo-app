@@ -1,0 +1,55 @@
+version: '3'
+services:
+  backend-auth:
+    build:
+      context: ./todo/backend/auth-back
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=football2903
+      - POSTGRES_DB=nn_todo
+    depends_on:
+      - postgres
+
+  backend-todo:
+    build:
+      context: ./todo/backend/todo-back
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=football2903
+      - POSTGRES_DB=todo_nn
+    depends_on:
+      - postgres
+
+  frontend-client:
+    build:
+      context: ./todo/frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend-auth
+      - backend-todo
+
+  postgres:
+    image: postgres:15
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=football2903
+      - POSTGRES_DB=nn_todo
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
