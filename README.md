@@ -20,6 +20,15 @@ The microservice architecture enables easy debugging, hosting, and scaling of th
 - Real-time updates when todos are modified.
 - Simple and intuitive user interface.
 
+## Tech Stack
+The Todo app uses the following technologies:
+
+Frontend:
+Next.js: A React framework for building server-rendered applications.
+Backend:
+NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
+PostgreSQL: A powerful, open-source relational database management system.
+
 ## Setup
 
 To run the Todo app locally, follow these steps:
