@@ -10,7 +10,7 @@ services:
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=football2903
+      - POSTGRES_PASSWORD=
       - POSTGRES_DB=nn_todo
     depends_on:
       - postgres
@@ -25,7 +25,7 @@ services:
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=football2903
+      - POSTGRES_PASSWORD=
       - POSTGRES_DB=todo_nn
     depends_on:
       - postgres
