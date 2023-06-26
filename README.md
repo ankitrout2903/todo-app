@@ -25,13 +25,13 @@ The Todo app uses the following technologies:
 
 Frontend:
 - Next.js: A React framework for building server-rendered applications.
-- -Tailwind CSS : A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
+- Tailwind CSS : A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
 - javascript
 
 Backend:
 - NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
 - PostgreSQL: A powerful, open-source relational database management system.
-- -typescript
+- typescript
 
 ## Setup
 
