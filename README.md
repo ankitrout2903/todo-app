@@ -26,7 +26,7 @@ The Todo app uses the following technologies:
 Frontend:
 - Next.js: A React framework for building server-rendered applications.
 
-###Backend:
+Backend:
 - NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
 - PostgreSQL: A powerful, open-source relational database management system.
 
